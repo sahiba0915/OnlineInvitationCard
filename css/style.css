@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(238, 130, 188);
+}
+
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+}
+
+.container {
+    width: 600px;
+    margin: 100px auto;
+    font-family: 'Dancing Script', cursive;
+}
+
+.hero {
+    line-height: 0;
+  }
+  
+.hero img {
+    width: 100%;
+    height: 50%;
+    border-radius: 20px 20px 0 0;
+}
+
+.intro, .day{
+    color: #e22f8f;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.intro{
+    font-size: 2.5rem;
+}
+
+.day{
+    font-size: 2.5rem;
+}
+
+.para {
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    line-height: 1.75;
+    margin-bottom: 1.75rem;
+    margin-left: 2.5rem;
+    word-spacing: 1rem;
+    font-weight: lighter;
+
+}
+
+.clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    
+}
+
+.mask {
+    width: 225px;
+    height: 224px;
+}
+
+
+aside {
+   margin-right: 2rem;
+}
+  
+
+aside.right{
+    float: right;
+}
+
+aside.left{
+    float: left;
+}
+
+
+section.header, section.contact {
+    padding: 40px;
+}
+
+section.header {
+    background: #FFF;
+}
+  
+section.contact {
+    background: #e6e9ea;
+}
+
+.location {
+    width: 100%;
+    height: 50%;
+   
+}
+
